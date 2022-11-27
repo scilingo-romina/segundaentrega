@@ -163,12 +163,12 @@ footer .copy{
     font-size: 30px;
     padding: 0 20px 0 20px;
 }
-#titulo-hotel{
+.titulo-hotel{
     margin: 20px;
     color: brown;
     font-family: 'Dancing Script', cursive;
 }
-#div-hotel{
+.div-hotel{
     margin-left: 10px;
     display: grid;
    grid-template-columns: 180px 800px;
