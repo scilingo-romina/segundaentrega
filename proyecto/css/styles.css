@@ -4,14 +4,22 @@
     #body {
         
         grid-template-columns: 4, 1fr;
+        align-items: center;
 
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 @media screen and (min-width: 1024px) {
     #body {
         
         grid-template-columns: 3, 1fr;
+        align-items: center;
     }
+  
 }
 
 *{
@@ -21,7 +29,7 @@
     
 }
 body{
-    
+    background-image: linear-gradient(to right, rgb(169, 178, 182), rgb(83, 129, 172));
     font-size: 2rem;
     font-family: 'Dancing Script', cursive;
 }
@@ -34,8 +42,8 @@ html{
     padding: .4rem;
 }
 img{
-    width: 40rem;
-    height: 30rem;
+    max-width: 100%;
+   
 }
 
 
