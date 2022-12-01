@@ -218,10 +218,18 @@ color: #6a6a66;
    row-gap: 20px;
 }
 .p-hotel{
-    border: 1px solid fuchsia;
-    padding: 10px;
-    color: blueviolet;
+    border: 0.1rem solid rgb(174, 66, 89);
+    padding: 0.5rem;
+    color: rgb(108, 14, 88);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 3rem;
     
+    
+}
+.p-hotel:hover{
+    transform: scale(1.1);
 }
 
 
@@ -299,14 +307,19 @@ textarea {
 nav li{
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem;
+    margin: 2rem;
     font-size: 2rem;
-    padding: 1.5rem;
+    padding: 0.5rem;
     justify-content:center;
-
+    transition: height(5s);
+       
    
 }  
+nav li:hover{
+    background-color: #b7d0d5;
+    height: 9rem;
 
+}
 
 nav ul li a{
     display: flex;
@@ -314,7 +327,7 @@ nav ul li a{
     list-style-type: none;
     color: rgb(155, 40, 86);
     text-decoration: none; 
-    background-color: rgb(161, 199, 205);
+    background-color: rgb(138, 165, 185);
     padding: 2rem;
     gap: 1.6rem;
 
@@ -376,4 +389,6 @@ nav ul li a{
     margin: 2rem;
     align-items: center;
 }
+
+
 
